@@ -21,7 +21,8 @@ h1 {
 /* body */
 
 .container {
-  width: 900px;
+  max-width: 1200px;
+  min-width: 800px;
   height: 800px;
   margin: 0 auto;
 }
@@ -30,8 +31,6 @@ body {
   border: 2px solid black;
   margin: 0 auto;
   padding: 20px;
-  /* see where to set it */
-  /* text-align: center; */
 }
 
 /* main */
@@ -47,15 +46,10 @@ body {
 .card2,
 .card3,
 .card4,
-.card5 {
-  float: left;
-  margin: 5px;
-}
-
-/* issue! 1 */
+.card5,
 .card6 {
-  float: right;
-  margin: 5px;
+  float: left;
+  padding: 10px;
 }
 
 .image {
